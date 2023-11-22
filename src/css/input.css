@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav a {
+    @apply font-medium relative text-lg hover:after:w-full;
+}
+
+nav ul li a::after {
+    content: '';
+    @apply absolute w-0 rounded-full -mb-2 left-0 bottom-0 h-1 bg-transparent bg-gradient-to-tr from-indigo-400 to-blue-700;
+}

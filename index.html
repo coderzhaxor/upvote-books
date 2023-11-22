@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home Upvote Books</title>
+
+        <!-- tailwindcss -->
+        <link rel="stylesheet" href="src/css/style.css" />
+
+        <!-- bootstrap icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    </head>
+    <body class="bg-[#050426] w-full min-h-screen text-white">
+        <nav class="flex items-center justify-between px-10 py-6 relative">
+            <a href="" class="order-2 md:order-1"><img src="public/logo.svg" alt="logo" /></a>
+            <ul
+                class="flex flex-col md:flex-row max-sm:absolute md:relative max-sm:top-full max-sm:left-0 max-sm:px-10 max-sm:py-8 max-sm:bg-indigo-400/10 z-50 max-sm:backdrop-blur-2xl max-sm:w-full md:items-center gap-4 md:-ml-28 order-1 md:order-2"
+            >
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/vote.html">Create Vote</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/browse.html">Browse</a></li>
+                <li><a href="purchased.html">Purchased</a></li>
+                <li><a href="">More</a></li>
+            </ul>
+            <div class="profile rounded-full order-3">
+                <img src="public/assets/img/profile.png" alt="" />
+            </div>
+        </nav>
+
+        <!-- main section start -->
+        <main>
+            <section id="hero-section" class="flex flex-col-reverse md:flex-row max-w-5xl mx-auto mt-16 items-center gap-10 md:gap-0">
+                <div class="hero-description max-w-xl px-8">
+                    <h1 class="text-4xl font-bold mb-4">Request Book Here !</h1>
+                    <p class="text-lg mb-6">You are welcome to request the books you want! Every request is a new opportunity to explore infinite literacy adventures together. Ask us what you want, and we'll try to make it happen for you.</p>
+                    <button class="px-4 py-3 bg-indigo-500 hover:bg-indigo-600 font-bold rounded-lg">Request Now</button>
+                </div>
+                <div class="hero-img relative">
+                    <img src="public/assets/svg/gradient-hero.svg" alt="gradient hero" class="absolute top-[30%] -right-0" />
+                    <img src="public/assets/svg/hero-img.svg" alt="hero-img" />
+                </div>
+            </section>
+
+            <section id="recomendations" class="mx-auto max-w-5xl px-8 mt-32">
+                <h1 class="text-center font-semibold text-3xl mb-10">Recomendation</h1>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="card p-5 rounded-3xl bg-white/5">
+                        <div class="card-header w-full flex justify-center items-center bg-[#AEACAF] rounded-2xl">
+                            <div class="card-img rounded-md m-auto overflow-hidden">
+                                <img src="public/assets/img/card1.png" alt="luka kata" />
+                            </div>
+                        </div>
+                        <div class="card-body w-full mt-4">
+                            <div class="status flex w-full justify-between bg-white/10 px-4 py-2 text-red-500 rounded-md">
+                                <span>Not Purchased</span>
+                                <span>66 Vote</span>
+                            </div>
+
+                            <h4 class="mt-4 font-bold text-2xl">Luka Kata</h4>
+                            <h6 class="text-lg">Candra Malik</h6>
+
+                            <a href="" class="flex bg-indigo-600 px-4 py-2 mt-4 rounded-full font-medium justify-center">Load More</a>
+                        </div>
+                    </div>
+                    <div class="card p-5 rounded-3xl bg-white/5">
+                        <div class="card-header w-full flex justify-center items-center bg-[#C44E4D] rounded-2xl">
+                            <div class="card-img rounded-md overflow-hidden">
+                                <img src="public/assets/img/card2.png" alt="cantik itu luka" />
+                            </div>
+                        </div>
+                        <div class="card-body w-full mt-4">
+                            <div class="status flex w-full justify-between bg-white/10 px-4 py-2 text-red-500 rounded-md">
+                                <span>Not Purchased</span>
+                                <span>40 Vote</span>
+                            </div>
+
+                            <h4 class="mt-4 font-bold text-2xl">Cantik Itu Luka</h4>
+                            <h6 class="text-lg">Eka Kurniawan</h6>
+
+                            <a href="" class="flex bg-indigo-600 px-4 py-2 mt-4 rounded-full font-medium justify-center">Load More</a>
+                        </div>
+                    </div>
+                    <div class="card p-5 rounded-3xl bg-white/5">
+                        <div class="card-header w-full flex justify-center items-center bg-[#703B8E] rounded-2xl">
+                            <div class="card-img rounded-md overflow-hidden">
+                                <img src="public/assets/img/card3.png" alt="House of Shadow" />
+                            </div>
+                        </div>
+                        <div class="card-body w-full mt-4">
+                            <div class="status flex w-full justify-between bg-white/10 px-4 py-2 text-red-500 rounded-md">
+                                <span>Not Purchased</span>
+                                <span>29 Vote</span>
+                            </div>
+
+                            <h4 class="mt-4 font-bold text-2xl">House of Shadow</h4>
+                            <h6 class="text-lg">Candra Malik</h6>
+
+                            <a href="" class="flex bg-indigo-600 px-4 py-2 mt-4 rounded-full font-medium justify-center">Load More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section animation start -->
+            <section id="animation" class="w-full h-[500px] bg-[#2F2F8A] mt-20 flex items-center justify-center">
+                <div class="animation-left">
+                    <img src="public/assets/svg/logo-animation.svg" alt="logo animation left" />
+                    <h4 class="text-center font-bold text-3xl">Upvote Books</h4>
+                </div>
+
+                <div class="animation-right"></div>
+            </section>
+            <!-- section animation end -->
+
+            <!-- section popular start -->
+            <section id="popular" class="mx-auto max-w-5xl px-8 mt-32">
+                <h1 class="text-center font-semibold text-3xl mb-10">Most Popular</h1>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="card p-5 rounded-3xl bg-white/5">
+                        <div class="card-header w-full flex justify-center items-center bg-[#AEACAF] rounded-2xl">
+                            <div class="card-img rounded-md overflow-hidden">
+                                <img src="public/assets/img/card1.png" alt="luka kata" />
+                            </div>
+                        </div>
+                        <div class="card-body w-full mt-4">
+                            <div class="status flex w-full justify-between bg-white/10 px-4 py-2 text-red-500 rounded-md">
+                                <span>Not Purchased</span>
+                                <span>66 Vote</span>
+                            </div>
+
+                            <h4 class="mt-4 font-bold text-2xl">Luka Kata</h4>
+                            <h6 class="text-lg">Candra Malik</h6>
+
+                            <a href="" class="flex bg-indigo-600 px-4 py-2 mt-4 rounded-full font-medium justify-center">Load More</a>
+                        </div>
+                    </div>
+                    <div class="card p-5 rounded-3xl bg-white/5">
+                        <div class="card-header w-full flex justify-center items-center bg-[#C44E4D] rounded-2xl">
+                            <div class="card-img rounded-md overflow-hidden">
+                                <img src="public/assets/img/card2.png" alt="cantik itu luka" />
+                            </div>
+                        </div>
+                        <div class="card-body w-full mt-4">
+                            <div class="status flex w-full justify-between bg-white/10 px-4 py-2 text-red-500 rounded-md">
+                                <span>Not Purchased</span>
+                                <span>40 Vote</span>
+                            </div>
+
+                            <h4 class="mt-4 font-bold text-2xl">Cantik Itu Luka</h4>
+                            <h6 class="text-lg">Eka Kurniawan</h6>
+
+                            <a href="" class="flex bg-indigo-600 px-4 py-2 mt-4 rounded-full font-medium justify-center">Load More</a>
+                        </div>
+                    </div>
+                    <div class="card p-5 rounded-3xl bg-white/5">
+                        <div class="card-header w-full flex justify-center items-center bg-[#703B8E] rounded-2xl">
+                            <div class="card-img rounded-md overflow-hidden">
+                                <img src="public/assets/img/card3.png" alt="House of Shadow" />
+                            </div>
+                        </div>
+                        <div class="card-body w-full mt-4">
+                            <div class="status flex w-full justify-between bg-white/10 px-4 py-2 text-red-500 rounded-md">
+                                <span>Not Purchased</span>
+                                <span>29 Vote</span>
+                            </div>
+
+                            <h4 class="mt-4 font-bold text-2xl">House of Shadow</h4>
+                            <h6 class="text-lg">Candra Malik</h6>
+
+                            <a href="" class="flex bg-indigo-600 px-4 py-2 mt-4 rounded-full font-medium justify-center">Load More</a>
+                        </div>
+                    </div>
+                    <div class="card p-5 rounded-3xl bg-white/5">
+                        <div class="card-header w-full flex justify-center items-center bg-[#AEACAF] rounded-2xl">
+                            <div class="card-img rounded-md overflow-hidden">
+                                <img src="public/assets/img/card1.png" alt="luka kata" />
+                            </div>
+                        </div>
+                        <div class="card-body w-full mt-4">
+                            <div class="status flex w-full justify-between bg-white/10 px-4 py-2 text-red-500 rounded-md">
+                                <span>Not Purchased</span>
+                                <span>66 Vote</span>
+                            </div>
+
+                            <h4 class="mt-4 font-bold text-2xl">Luka Kata</h4>
+                            <h6 class="text-lg">Candra Malik</h6>
+
+                            <a href="" class="flex bg-indigo-600 px-4 py-2 mt-4 rounded-full font-medium justify-center">Load More</a>
+                        </div>
+                    </div>
+                    <div class="card p-5 rounded-3xl bg-white/5">
+                        <div class="card-header w-full flex justify-center items-center bg-[#C44E4D] rounded-2xl">
+                            <div class="card-img rounded-md overflow-hidden">
+                                <img src="public/assets/img/card2.png" alt="cantik itu luka" />
+                            </div>
+                        </div>
+                        <div class="card-body w-full mt-4">
+                            <div class="status flex w-full justify-between bg-white/10 px-4 py-2 text-red-500 rounded-md">
+                                <span>Not Purchased</span>
+                                <span>40 Vote</span>
+                            </div>
+
+                            <h4 class="mt-4 font-bold text-2xl">Cantik Itu Luka</h4>
+                            <h6 class="text-lg">Eka Kurniawan</h6>
+
+                            <a href="" class="flex bg-indigo-600 px-4 py-2 mt-4 rounded-full font-medium justify-center">Load More</a>
+                        </div>
+                    </div>
+                    <div class="card p-5 rounded-3xl bg-white/5">
+                        <div class="card-header w-full flex justify-center items-center bg-[#703B8E] rounded-2xl">
+                            <div class="card-img rounded-md overflow-hidden">
+                                <img src="public/assets/img/card3.png" alt="House of Shadow" />
+                            </div>
+                        </div>
+                        <div class="card-body w-full mt-4">
+                            <div class="status flex w-full justify-between bg-white/10 px-4 py-2 text-red-500 rounded-md">
+                                <span>Not Purchased</span>
+                                <span>29 Vote</span>
+                            </div>
+
+                            <h4 class="mt-4 font-bold text-2xl">House of Shadow</h4>
+                            <h6 class="text-lg">Candra Malik</h6>
+
+                            <a href="" class="flex bg-indigo-600 px-4 py-2 mt-4 rounded-full font-medium justify-center">Load More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section popular end -->
+        </main>
+        <!-- main section end -->
+
+        <!-- Footer Start -->
+        <footer id="footer" class="w-full bg-[#2F2F8A]/20 py-10 flex flex-col justify-center mt-20 text-center">
+            <h6 class="text-sky-600 font-bold text-2xl">Follow our socials</h6>
+            <span class="gap-8 space-x-6 [&>i]:text-2xl mt-6">
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+            </span>
+            <hr class="w-[500px] mx-auto mt-10 border-white/60" />
+            <p class="mt-4 text-white/70">&copy; Upvote books Inc. All rights reserved.</p>
+        </footer>
+        <!-- Footer End -->
+    </body>
+</html>
